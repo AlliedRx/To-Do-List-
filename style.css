@@ -1,4 +1,76 @@
 body {
+  background-color: #DEE2EB;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #7F56C4;
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #DA26FA;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#tasks {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-text {
+  color: #7F56C4;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.task-text.completed {
+  color: #DEE2EB;
+  text-decoration: line-through;
+}
+
+button.delete-task {
+  background-color: #DA26FA;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+ {
   font-family: sans-serif;
   background-color: #DEE2EB;
   text-align: center;
